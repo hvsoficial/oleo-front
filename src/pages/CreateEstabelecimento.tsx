@@ -110,7 +110,7 @@ const CreateEstabelecimento: React.FC = () => {
             </div>
 
             <div className="input-block">
-              <label htmlFor="images">Fotos</label>
+              <label htmlFor="images">Fotos<span>Para a adição de mais de uma imagem deve selecionar todas antes de clicar em abrir </span></label>
 
               <div className="images-container">
                 {selectedImagesPreview.map(image => (
@@ -127,7 +127,7 @@ const CreateEstabelecimento: React.FC = () => {
           </fieldset>
 
           <fieldset>
-            <legend>Dados para  o Atendimento </legend>
+            <legend>Dados para o Atendimento </legend>
 
             <div className="input-block">
               <label htmlFor="instructions">Instruções</label>
@@ -135,11 +135,11 @@ const CreateEstabelecimento: React.FC = () => {
             </div>
 
             <div className="input-block">
-              <label htmlFor="opening_hours">Horário de atendimento</label>
+              <label htmlFor="opening_hours">Horário de atendimento<span>Ex.: Das 8:00h as 16:00h</span></label>
               <input id="opening_hours" value={opening_hours} onChange={event => setOpeningHours(event.target.value)} />
             </div>
             <div className="input-block">
-              <label htmlFor="telefone">Telefone</label>
+              <label htmlFor="telefone">Telefone<span>O numero tem que ser composto pelo DDI + DDD + numero de telefone Ex.: +55 62 99999 9999</span></label>
              <input id="telefone" value={telefone} onChange={event => setFone(event.target.value)} />
             </div>
 
