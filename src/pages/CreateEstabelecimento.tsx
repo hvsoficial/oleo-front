@@ -89,7 +89,7 @@ const CreateEstabelecimento: React.FC = () => {
           <fieldset>
             <legend>Dados</legend>
 
-            <Map center={[-28.3314516, -49.0334413]} style={{ width: '100%', height: 280 }} zoom={14}
+            <Map center={[-16.3325529, -48.9549526]} style={{ width: '100%', height: 280 }} zoom={14}
               onclick={handleMapClick}>
               <TileLayer url={`https://api.mapbox.com/styles/v1/mapbox/light-v10/tiles/256/{z}/{x}/{y}@2x?access_token=${process.env.REACT_APP_MAPBOX_TOKEN}`}
  />

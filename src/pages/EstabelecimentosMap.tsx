@@ -58,7 +58,7 @@ const EstabelecimentoMap: React.FC = () => {
 			</aside>
 			 
 
-			<Map center={[-28.3314516, -49.0334413]} zoom={14} style={{ height: '100%', width: '100%' }}>
+			<Map center={[-16.3325529, -48.9549526]} zoom={14} style={{ height: '100%', width: '100%' }}>
 				<TileLayer url={`https://api.mapbox.com/styles/v1/mapbox/light-v10/tiles/256/{z}/{x}/{y}@2x?access_token=${process.env.REACT_APP_MAPBOX_TOKEN}`}/>
 
 				{estabelecimentos.map(estabelecimento => (
