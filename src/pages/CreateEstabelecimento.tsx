@@ -158,7 +158,7 @@ const CreateEstabelecimento: React.FC = () => {
             </div>
 
             <div className="input-block">
-              <label htmlFor="zap">O número de telefone tem Whatzapp</label>
+              <label htmlFor="zap">O número de telefone contém Whatzapp</label>
 
               <div className="button-select">
                 <button type="button" className={zap ? 'active' : ''} onClick={() => setZap(true)}>
