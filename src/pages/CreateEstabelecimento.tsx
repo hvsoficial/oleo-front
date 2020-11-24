@@ -127,7 +127,7 @@ const CreateEstabelecimento: React.FC = () => {
           </fieldset>
 
           <fieldset>
-            <legend>Visitação</legend>
+            <legend>Dados para  o Atendimento </legend>
 
             <div className="input-block">
               <label htmlFor="instructions">Instruções</label>
@@ -135,7 +135,7 @@ const CreateEstabelecimento: React.FC = () => {
             </div>
 
             <div className="input-block">
-              <label htmlFor="opening_hours">Horario de atendimento</label>
+              <label htmlFor="opening_hours">Horário de atendimento</label>
               <input id="opening_hours" value={opening_hours} onChange={event => setOpeningHours(event.target.value)} />
             </div>
             <div className="input-block">
